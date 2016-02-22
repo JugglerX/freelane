@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>sdfasdf
+  <% for(key in result.data) { %>
+  <% var champion = result.data[key] %>
+  <%= champion.name %>
+  <%= champion.key %>
+ <img src="champions/<%= champion.key %>_Square_0.png">
+  <%= champion.id %>
+  <% } %>
+  </body>
+</html>

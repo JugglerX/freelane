@@ -1,0 +1,5 @@
+.env
+public/champions
+node_modules
+.idea
+npm-debug.log
